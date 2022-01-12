@@ -1,0 +1,62 @@
+.project-container {
+  width: 480px;
+  height: 500px;
+  margin: 20px 10px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project-img {
+  width: 480;
+  height: 280px;
+  background-color: burlywood;
+}
+
+.project-details {
+  padding: 10px;
+}
+
+.project-title {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.project-details-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-link {
+  display: flex;
+  gap: 10px;
+}
+
+.project-desc {
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+.tags {
+  display: flex;
+  gap: 15px;
+}
+
+.tagmap {
+  background-color: rgb(218, 213, 213);
+  color: darkslategray;
+  padding: 5px;
+  border-radius: 15px;
+  font-weight: 400;
+}
+
+.tagmap:hover {
+  color: rgb(87, 102, 102);
+  transform: scale(1.05);
+  transition: 0.2s all;
+}
+
+.link-icon:hover {
+  transform: scale(1.1);
+  transition: 0.2s all;
+}

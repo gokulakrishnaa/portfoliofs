@@ -1,23 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Home } from "./Home.js";
+import { About } from "./About.js";
+import { Projects } from "./Projects.js";
+import { Route, Switch } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function App() {
+  const history = useHistory();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className="topbar">
+        <button onClick={() => history.push("/")} className="buttonclass">
+          Home
+        </button>
+        <button onClick={() => history.push("/about")} className="buttonclass">
+          About
+        </button>
+        <button
+          onClick={() => history.push("/projects")}
+          className="buttonclass"
         >
-          Learn React
-        </a>
-      </header>
+          Projects
+        </button>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "https://drive.google.com/file/d/10xEi6SXQDPO2uH7Fq-vRojXEwhiPZZCy/view?usp=sharing",
+              "_blank"
+            );
+          }}
+          className="buttonclass"
+        >
+          Resume
+        </button>
+      </div>
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+      </Switch>
     </div>
   );
 }

@@ -1,0 +1,51 @@
+.home {
+  display: flex;
+  max-height: calc(100vh - 50px);
+  background-image: linear-gradient(
+    to right top,
+    #cfdbdb,
+    #b8c5c5,
+    #939d9d,
+    #7c8383,
+    #828686
+  );
+}
+
+.home-left {
+  flex: 1;
+}
+
+.left-box {
+  margin: 180px 20px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.line-two > .name {
+  font-size: 27px;
+  color: rgb(59, 56, 56);
+}
+
+.home-right {
+  flex: 1;
+}
+
+.right-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-img {
+  height: 100%;
+  width: 70%;
+}
+
+.react-icons {
+  display: flex;
+  gap: 26px;
+  margin-top: 10px;
+}

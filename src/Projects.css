@@ -1,0 +1,16 @@
+.projects {
+  padding: 50px;
+  background-color: rgb(196, 189, 189);
+}
+
+.projects-header {
+  margin-left: 120px;
+}
+
+.project-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}

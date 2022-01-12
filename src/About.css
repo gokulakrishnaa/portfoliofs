@@ -1,0 +1,44 @@
+.about {
+  max-height: 100vh;
+  padding: 50px 100px;
+  background-color: rgb(196, 189, 189);
+}
+
+.about-bottom {
+  margin: 40px 0px;
+}
+
+.intro-para {
+  font-size: 22px;
+  word-spacing: 5px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.intro-bot {
+  font-size: 22px;
+  word-spacing: 5px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-details {
+  display: flex;
+  gap: 26px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.iname,
+.cname {
+  font-weight: 500;
+}
