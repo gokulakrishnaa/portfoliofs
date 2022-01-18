@@ -27,7 +27,7 @@ function App() {
           onClick={(e) => {
             e.preventDefault();
             window.open(
-              "https://drive.google.com/file/d/10xEi6SXQDPO2uH7Fq-vRojXEwhiPZZCy/view?usp=sharing",
+              "https://drive.google.com/file/d/1uGP-RCCJTbzH8eu2lD_bv2nXDi5TwPSp/view?usp=sharing",
               "_blank"
             );
           }}

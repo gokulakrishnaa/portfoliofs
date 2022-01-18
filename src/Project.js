@@ -2,20 +2,20 @@ import "./Project.css";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlinePageview } from "react-icons/md";
 
-export function Project({ title, desc }) {
+export function Project({ title, desc, image, giturl, website }) {
   const array = ["#react", "#nodejs", "#mongodb", "#html", "#css"];
   return (
     <div className="project">
       <div className="project-container">
         <div className="project-img">
-          <img src="" alt="" />
+          <img className="imgfile" src={image} alt="" />
         </div>
         <div className="project-details">
           <div className="project-details-header">
             <h4 className="project-title">{title}</h4>
             <div className="project-link">
               <a
-                href="https://www.google.com"
+                href={website}
                 target="_blank"
                 rel="noreferrer"
                 className="link-icon"
@@ -23,7 +23,7 @@ export function Project({ title, desc }) {
                 <MdOutlinePageview size="32px" color="darkslategray" />
               </a>
               <a
-                href="https://www.google.com"
+                href={giturl}
                 target="_blank"
                 rel="noreferrer"
                 className="link-icon"

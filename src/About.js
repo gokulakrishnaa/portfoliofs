@@ -1,9 +1,9 @@
 import "./About.css";
-import { FaReact, FaNodeJs, FaAws, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
-import { SiMongodb, SiFirebase } from "react-icons/si";
+import { SiMongodb, SiFirebase, SiNetlify, SiHeroku } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsFillTelephoneFill, BsGithub } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 
 export function About() {
@@ -75,9 +75,21 @@ export function About() {
           </div>
           <div className="icon">
             <div className="ilogo">
-              <FaGitAlt size="60px" color="red" />
+              <BsGithub size="60px" color="darkslategray" />
             </div>
-            <div className="iname">Git</div>
+            <div className="iname">Github</div>
+          </div>
+          <div className="icon">
+            <div className="ilogo">
+              <SiNetlify size="60px" color="blueviolet" />
+            </div>
+            <div className="iname">Netlify</div>
+          </div>
+          <div className="icon">
+            <div className="ilogo">
+              <SiHeroku size="60px" color="darkslateblue" />
+            </div>
+            <div className="iname">Heroku</div>
           </div>
           <div className="icon">
             <div className="ilogo">
