@@ -7,6 +7,14 @@
   margin-left: 120px;
 }
 
+.project-cred {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
 .project-cards {
   width: 100%;
   display: flex;

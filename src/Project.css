@@ -1,6 +1,6 @@
 .project-container {
   width: 480px;
-  height: 500px;
+  height: 512px;
   margin: 20px 10px;
   background-color: white;
   border-radius: 5px;
@@ -24,7 +24,7 @@
 
 .project-title {
   font-size: 26px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .project-details-header {
@@ -34,7 +34,7 @@
 
 .project-link {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .project-desc {
@@ -64,4 +64,20 @@
 .link-icon:hover {
   transform: scale(1.1);
   transition: 0.2s all;
+}
+
+.gitscImg {
+  height: 30px;
+  width: 30px;
+}
+
+.gitbscImg {
+  height: 26px;
+  width: 26px;
+}
+
+.projecttime {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(39, 39, 39);
 }
