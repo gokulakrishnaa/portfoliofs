@@ -23,7 +23,7 @@ export function Projects() {
       gitfront: "https://github.com/gokulakrishnaa/amazon-clone-project",
       gitback: "https://github.com/gokulakrishnaa/Money-Manager-Backend",
       projecttime: "Nov 2021 - Jan 2022",
-      website: "https://priceless-einstein-7996ef.netlify.app",
+      website: "https://peaceful-kare-99ecd4.netlify.app",
     },
     {
       id: 3,
@@ -46,17 +46,6 @@ export function Projects() {
       gitback: "https://github.com/gokulakrishnaa/Nodeclass",
       projecttime: "Oct 2021",
       website: "https://happy-benz-6c1b46.netlify.app",
-    },
-    {
-      id: 5,
-      title: "User Auth App",
-      image:
-        "https://elements-cover-images-0.imgix.net/6e855666-1764-4019-be9e-998505bd3fdf?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=fffbff5628fab9da0e2697d748790e92",
-      desc: "Auth App is a Full Stack Authentication application created using React JS, Node JS,Nodemailer package & MongoDB (Database). Utilizes React functional components, React hooks and Context API, Material UI framework, APIs created using Node.js.",
-      gitfront: "https://github.com/gokulakrishnaa/url-app",
-      gitback: "https://github.com/gokulakrishnaa/Nodeurltask",
-      projecttime: "Dec 2021",
-      website: "https://focused-hopper-3aac6a.netlify.app",
     },
   ];
   return (
