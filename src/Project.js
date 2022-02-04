@@ -22,32 +22,6 @@ export function Project({
             <h4 className="project-title">{title}</h4>
             <div className="project-link">
               <a
-                href={gitfront}
-                target="_blank"
-                rel="noreferrer"
-                className="link-icon"
-              >
-                <img
-                  className="gitscImg"
-                  src="https://cdn-icons-png.flaticon.com/512/13/13706.png"
-                  alt=""
-                  title="frontend source code"
-                />
-              </a>
-              <a
-                href={gitback}
-                target="_blank"
-                rel="noreferrer"
-                className="link-icon"
-              >
-                <img
-                  className="gitbscImg"
-                  src="https://cdn-icons-png.flaticon.com/512/263/263100.png"
-                  alt=""
-                  title="backend source code"
-                />
-              </a>
-              <a
                 href={website}
                 target="_blank"
                 rel="noreferrer"
@@ -63,6 +37,23 @@ export function Project({
             {array.map((item) => (
               <div className="tagmap">{item}</div>
             ))}
+          </div>
+          <div className="class-button">
+            <button title="frontend source code" className="code-button">
+              <a href={gitfront} target="_blank" rel="noreferrer">
+                Frontend
+              </a>
+            </button>
+            <button title="backend source code" className="code-button">
+              <a href={gitback} target="_blank" rel="noreferrer">
+                Backend
+              </a>
+            </button>
+            <button title="view app" className="code-button">
+              <a href={website} target="_blank" rel="noreferrer">
+                App
+              </a>
+            </button>
           </div>
         </div>
       </div>

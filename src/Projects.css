@@ -1,6 +1,20 @@
 .projects {
   padding: 50px;
-  background-color: rgb(196, 189, 189);
+  background-image: linear-gradient(
+    to right top,
+    #5b77da,
+    #0091e6,
+    #00a5db,
+    #00b4bf,
+    #00be9e,
+    #46c58e,
+    #6dca7d,
+    #90ce6c,
+    #a3d46c,
+    #b6d96c,
+    #c8de6e,
+    #dbe370
+  );
 }
 
 .projects-header {

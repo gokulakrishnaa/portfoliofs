@@ -3,11 +3,18 @@
   max-height: calc(100vh - 50px);
   background-image: linear-gradient(
     to right top,
-    #cfdbdb,
-    #b8c5c5,
-    #939d9d,
-    #7c8383,
-    #828686
+    #5b77da,
+    #0091e6,
+    #00a5db,
+    #00b4bf,
+    #00be9e,
+    #46c58e,
+    #6dca7d,
+    #90ce6c,
+    #a3d46c,
+    #b6d96c,
+    #c8de6e,
+    #dbe370
   );
 }
 
@@ -48,4 +55,9 @@
   display: flex;
   gap: 26px;
   margin-top: 10px;
+}
+
+.react-icons-class:hover {
+  transform: scale(1.2);
+  transition: 0.5s all;
 }

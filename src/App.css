@@ -1,11 +1,18 @@
 .App {
   background-image: linear-gradient(
     to right top,
-    #deefef,
-    #b8c5c5,
-    #939d9d,
-    #707676,
-    #4f5252
+    #5b77da,
+    #0091e6,
+    #00a5db,
+    #00b4bf,
+    #00be9e,
+    #46c58e,
+    #6dca7d,
+    #90ce6c,
+    #a3d46c,
+    #b6d96c,
+    #c8de6e,
+    #dbe370
   );
 }
 

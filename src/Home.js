@@ -14,10 +14,22 @@ export function Home() {
           </h2>
           <h2 className="line-three">I'm a Full Stack Web Developer</h2>
           <div className="react-icons">
-            <FaReact size="45px" color="blue" />
-            <IoLogoJavascript size="45px" color="lawngreen" />
-            <FaNodeJs size="45px" color="limegreen" />
-            <SiMongodb size="45px" color="green" />
+            <FaReact size="45px" color="blue" className="react-icons-class" />
+            <IoLogoJavascript
+              size="45px"
+              color="lawngreen"
+              className="react-icons-class"
+            />
+            <FaNodeJs
+              size="45px"
+              color="limegreen"
+              className="react-icons-class"
+            />
+            <SiMongodb
+              size="45px"
+              color="green"
+              className="react-icons-class"
+            />
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import "./About.css";
 import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
-import { SiMongodb, SiFirebase, SiNetlify, SiHeroku } from "react-icons/si";
+import { SiMongodb, SiNetlify, SiHeroku } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { BsFillTelephoneFill, BsGithub } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
@@ -90,12 +90,6 @@ export function About() {
               <SiHeroku size="60px" color="darkslateblue" />
             </div>
             <div className="iname">Heroku</div>
-          </div>
-          <div className="icon">
-            <div className="ilogo">
-              <SiFirebase size="60px" color="orange" />
-            </div>
-            <div className="iname">Firebase</div>
           </div>
         </div>
       </div>
